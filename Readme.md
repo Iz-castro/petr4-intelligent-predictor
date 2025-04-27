@@ -29,12 +29,26 @@ Projeto de previsão inteligente para o preço de fechamento da ação PETR4 uti
 
 ---
 
+## 📊 Desempenho do Modelo Treinado
+
+Abaixo podemos observar o desempenho do modelo LSTM no conjunto de teste durante o treinamento:
+
+<p align="center">
+  <img src="docs/treinamento_lstm.png" alt="Desempenho do Treinamento" width="700"/>
+</p>
+
+✅ O modelo foi capaz de aprender a dinâmica de variação dos preços da PETR4,  
+capturando tendências e comportamentos de alta/baixa com excelente aderência.  
+Isso demonstra a robustez do pipeline de pré-processamento e a qualidade do treinamento.
+
+---
+
 ## 🛠️ Como Rodar o Projeto
 
 1. Clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/petr4-intelligent-predictor.git
+git clone https://github.com/Iz-castro/petr4-intelligent-predictor.git
 ```
 
 2 . Crie e ative um ambiente virtual:
@@ -110,7 +124,9 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais detalhes.
 
 Para dúvidas, sugestões ou colaborações:
 **Izael Castro**  
+
 Email: *izaeldecastro@gmail.com*
+
 Github: *Iz-castro*
 
 ---
