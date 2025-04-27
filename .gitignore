@@ -1,0 +1,28 @@
+# Ambiente virtual
+venv/
+.env
+*.env
+
+# Arquivos de sistema
+__pycache__/
+*.pyc
+.DS_Store
+
+# Arquivos sensíveis
+*.pkl
+*.csv
+logs/
+*.log
+usuario.json
+*.bak
+
+# Outros temporários
+*.checkpoint
+*.h5
+*.joblib
+*.cloudpickle
+
+# OpenAI keys
+OPENAI_API_KEY
+sk-*
+sk-proj-*
